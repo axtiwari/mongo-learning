@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic express app</title>
+</head>
+<body>
+  <h1 style="text-align: center">Movies</h1>
+  <ul style="list-style: none; border: 5px dashed mediumslateblue; padding: 10px">
+    {% for movie in movies %}
+      <li><a href="http://www.imdb.com/title/{{ movie.imdb.id }}">{{ movie.title}}</a></li>
+    {% else %}
+      <li>No movies found</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

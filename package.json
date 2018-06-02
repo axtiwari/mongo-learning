@@ -1,0 +1,27 @@
+{
+  "name": "mongo-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.9",
+    "nunjucks": "^3.1.3"
+  }
+}
